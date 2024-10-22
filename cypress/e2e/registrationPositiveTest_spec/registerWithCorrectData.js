@@ -14,7 +14,6 @@ describe('Register with correct data', function(){
         const registerPage = new RegisterPage
         const mobileNumberVerificationPage = new MobileNumberVerificationPage
         let firstName = faker.person.firstName()
-        let middleName = faker.person.middleName()
         let lastName = faker.person.lastName()
         let email = faker.internet.email()
 
